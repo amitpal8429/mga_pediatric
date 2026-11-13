@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/proxy/:path*", "destination": "https://24x7.medicalglobalacademy.com/api/:path*" },
+    { "source": "/((?!sitemap\\.xml|robots\\.txt|assets/|favicon\\.svg).*)", "destination": "/index.html" }
+  ]
+}
